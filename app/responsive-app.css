@@ -1,0 +1,111 @@
+/* Common Screen - 1366px */
+@media only screen and (max-width: 1366px) {
+    footer {
+        width: 95%;
+        right: 2.5%;
+        left: 2.5%;
+    }
+}
+
+/* Desktop & Laptops - 1224px */
+@media only screen and (max-width: 1224px) {
+    footer {
+        width: 82%;
+        right: 9%;
+        left: 9%;
+    }
+
+    .footer-section-container {
+        height: 60%;
+        width: 45%;
+        margin: 0 2.5%;
+    }
+}
+ 
+/* Ipads - 768px (portrait) */
+
+@media only screen and (max-width: 768px) {
+    footer {
+        height: 680px;
+    }
+
+    .footer-brand-logo {
+        height: 60px;
+    }
+
+    .footer-section-container {
+        height: 50%;
+    }
+
+    .footer-section-container h2 {
+        margin-top: 35px;
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .footer-section-container h2 {
+        font-size: 1rem;
+    }
+
+    .postlisti-input {
+        width: 62.5%;
+        margin-left: 7.5%;
+    }
+
+    .postlisti-envelope {
+        height: 25px;
+        margin: 17.5px 5% 0 5%;
+    } 
+}
+
+/* Breaking Point -500px */
+
+@media only screen and (max-width: 500px) {
+    footer {
+        height: 800px;
+    }
+
+    .footer-section-container {
+        height: 33%;
+        text-align: center;
+    }
+
+    .footer-brand-logo {
+        background-position: center center!important;
+    }
+
+    .large-container {
+        width: 95%; 
+    }
+
+    .large-container h2 {
+        text-align: center;
+    }
+
+    .social-container {
+        width: 220px;
+        margin: 10px auto;
+    }
+
+    .social-large-container {
+        height: 25%!important;
+        padding-top: 5%;
+    }
+}
+
+/* Smartphone - 480px (landscape) */
+
+@media only screen and (max-width: 480px) {
+    .footer-brand-logo {
+        height: 60px;
+    }
+
+    .footer-section-container p, .footer-section-container li {
+        font-size: 0.7rem;
+    }
+
+    .social-container h2 {
+        margin-top: 0;
+    }
+}

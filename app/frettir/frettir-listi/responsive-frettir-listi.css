@@ -1,0 +1,74 @@
+/* Break for frettir widht -1582px */
+@media only screen and (max-width: 1582px) {
+    .frett-container {
+        width: 33%;
+    }
+}
+
+/* Ipads - 1024px (landscape) */
+
+@media only screen and (max-width: 1024px) {
+    #date, #paragraph {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .frett-container {
+        width: 50%
+    }
+}
+
+/* frettir second break - 824px */
+
+@media only screen and (max-width: 824px) {
+    #date, #paragraph {
+        font-size: 0.8rem;
+    }
+
+    .frett-banner {
+        height: 50%;
+    }
+
+    .title h2{
+        font-size: 1rem!important
+    }
+}
+
+/* third frettir break -546px */
+
+@media only screen and (max-width: 546px) {
+    .frett-container {
+        width: 100%;
+        height: 500px;
+    }
+
+    .categories ul li {
+        margin: 5% 10px 0 10px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Smartphone - 480px (landscape) */
+
+@media only screen and (max-width: 480px) {
+
+    .frett {
+        width: 100%;
+    }
+
+    .categories ul {
+        width: 95%;
+        margin-left: 5%;
+    }
+
+    .categories li {
+        float: left;
+    }
+
+    #paragraph, #date {
+        font-size: 0.7rem;
+    }
+
+}
+

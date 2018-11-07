@@ -1,0 +1,159 @@
+footer {
+    position: relative;
+    float: left;
+    height: 500px;
+    width: 82%;
+    right: 9%;
+    left: 9%;
+    color: #262635;
+}
+
+.footer-section-container {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    height: 100%;
+    width: 23%;
+    margin: 0 1%;
+}
+
+.footer-brand-logo {
+    position: relative;
+    height: 80px;
+    width: auto;
+    left: 0;
+    background: url('../assets/icons/logo/premis-logo.svg');
+    background-position: left center!important;
+}
+
+address {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    font-style: normal;
+    line-height: 25px;
+    opacity: .5;
+}
+
+address p {
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+}
+
+.footer-section-container h2 {
+    margin-top: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.navigation ul {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+.navigation ul li {
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.navigation ul li:hover {
+    opacity: .7;
+    text-decoration: underline
+}
+
+.social-container {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.social {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 40px;
+    opacity: .85;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.social:hover {
+    opacity: 1;
+}
+
+.facebook {
+    background: url('../assets/icons/social/facebook-logo-button.svg')
+}
+
+.instagram {
+    background: url('../assets/icons/social/instagram-logo.svg')
+}
+
+.twitter {
+    background: url('../assets/icons/social/twitter-logo-button.svg')
+}
+
+.basketball {
+    background: url('../assets/icons/misc/dribble-logo-button.svg')    
+}
+
+.postlisti p {
+    margin-top: 35px;
+    font-size: 0.9rem;
+    line-height: 25px;
+    opacity: .5;
+}
+
+.postlisti-container {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    background-color: #262635;
+    border-radius: 100px;
+}
+
+.postlisti-input {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    height: 30px;
+    width: 57.5%;
+    margin-top: 15px;
+    margin-left: 12.5%;
+    border: none;
+    background: transparent;
+    color: white!important
+}
+
+.postlisti-input::placeholder {
+    color: white;
+    opacity: .7;
+    font-size: 0.9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.postlisti-envelope {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    height: 40px;
+    width: 20%;
+    margin: 10px 10% 0 0;
+    background: url('../assets/icons/misc/envelope.svg');
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.postlisti-envelope:hover {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    -moz-transform: scale3d(1.03, 1.03, 1.03);
+    -o-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03)
+
+}

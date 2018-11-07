@@ -1,0 +1,98 @@
+<nav>
+    <!-- Premis Logo -->
+    <div class="brand-logo contain transition">
+
+    </div>
+
+    <ul>
+        <!-- Navbar, settur í öfuga röð vegna "float: right"-->
+        <li id="facebook-button-container">
+        <div class="facebook-button contain transition">
+            
+        </div>
+        </li>
+        <li class="header transition">
+            Sagan
+        </li>
+        <li class="header transition">
+            Vörur
+        </li>
+        <li class="header transition">
+            Um Okkur
+        </li>
+        
+    </ul>
+</nav>
+
+<!-- Mobile Navigation -->
+<div class="mobile-nav">
+  
+        <div class="brand-logo contain">
+      
+        </div>
+        
+        <div class="mobile-nav-button contain transition" (click)="toggleMobileNav()">
+        
+        </div>
+      
+        <div class="mobile-nav-dropdown" [ngClass]="{'show-mobile-nav': showMobileNav === true}">
+          <div class="exit-button transition contain" (click)="toggleMobileNav()">
+      
+          </div>
+            <ul>
+                <li>
+                  <span class="transition active-mobile-nav-button">
+                    Um Okkur
+                  </span>
+                </li>
+          
+                <li>
+                  <span class="transition">
+                    Vörur
+                  </span>
+                </li>
+          
+                <li>
+                  <span class="transition">
+                    Sagan
+                  </span>
+                </li>
+              </ul>
+      
+                <div class="social-media-icons">
+                  <div class="social-media-icon contain transition facebook-white">
+      
+                  </div>
+                  <div class="social-media-icon contain transition instagram-white">
+      
+                  </div>
+                  <div class="social-media-icon contain transition twitter-white">
+      
+                  </div>
+                </div>
+          
+        </div>
+            
+      </div>
+
+
+<div class="hero-banner cover">
+    <div class="hero-text contain">
+    </div>
+
+    <div class="down-arrow contain transition" (click)="arrowFunction()">
+        
+    </div>
+
+    <div class="hero-banner-fade contain">
+    </div>
+
+</div>
+
+<div class="frettir-container">
+    <frettir-listi></frettir-listi>
+</div>
+
+
+
+

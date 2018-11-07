@@ -1,0 +1,64 @@
+/* Common Screen - 1366px */
+
+@media only screen and (max-width: 1366px) {
+    /* Navbar stílar */
+    .brand-logo {
+        margin-left: 2.5%;
+    }
+
+    nav ul {
+        margin-right: 2.5%;
+    }
+}
+
+/* Desktop & Laptops - 1224px */
+
+@media only screen and (max-width: 1224px) {
+    /* Navbar Stílar */
+
+    nav li {
+        width: 12.5%;
+        margin: 0 15px;
+    }
+
+    .brand-logo {
+        height: 70px;
+        width: 90px;
+    }
+}
+
+/* Common breaking point - 1024 */
+
+@media only screen and (max-width: 1024px) {
+    .hero-text {
+        width: 55%;
+    }
+}
+
+/* Ipads - 768px (portrait) */
+
+@media only screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+
+    .hero-text {
+        width: 80%;
+        right: 0;
+        left: -10%;
+    }
+
+}
+
+/* Smartphone - 480px (landscape) */
+
+@media only screen and (max-width: 496px) {
+    .hero-banner-fade {
+        width: 200%;
+        left: -50%;
+    }
+}

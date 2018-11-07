@@ -1,0 +1,114 @@
+/* Filter kafli */
+
+.filter-container {
+    position: relative;
+    height: 95px;
+    width: 100%;
+    margin: 25px 0;
+}
+
+.filter-container ul {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 100%;
+    text-align: center
+}
+
+.filter-container ul li {
+    position: relative;
+    float: right;
+    margin: 5% 20px 0 20px;
+    cursor: pointer;
+}
+
+.filter-container ul li a:hover {
+    color: #f3ba96!important;
+}
+
+.active-category {
+    color: #f3ba96;
+}
+
+/* Stilar fyrir frétt */
+
+.frett-container {
+    position: relative;
+    box-sizing: border-box;
+    height: 600px;
+    width: 25%;
+    float: left;
+}
+
+.frett {
+    position: relative;
+    box-sizing: border-box;
+    height: 90%;
+    width: 90%;
+    margin: 5% auto;
+    cursor: pointer;
+}
+
+.frett:hover {
+    -webkit-transform: scale3d(1.01, 1.01, 1.01);
+    -moz-transform: scale3d(1.01, 1.01, 1.01);
+    -o-transform: scale3d(1.01, 1.01, 1.01);
+    transform: scale3d(1.01, 1.01, 1.01);
+}
+
+.frett:hover .frett-banner {
+    -webkit-transform: translate(-5px, -5px);
+    -moz-transform: translate(-5px, -5px);
+    -o-transform: translate(-5px, -5px);
+    transform: translate(-5px, -5px);
+}
+
+.frett:hover .title {
+    -webkit-transform: translate(7.5px, 0px);
+    -moz-transform: translate(7.5px, 0px);
+    -o-transform: translate(7.5px, 0px);
+    transform: translate(7.5px, 0px);
+}
+
+.frett-banner {
+    position: relative;
+    float: left;
+    height: 50%;
+    width: 100%;
+    border-radius: 1px;
+    -webkit-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.category {
+    position: relative;
+    margin-bottom: 50px!important;
+}
+
+.category h4 {
+    position: relative;
+    top: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.title {
+    font-weight: 800!important;
+    letter-spacing: -1px;
+    -webkit-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+#date {
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+
+#paragraph {
+    font-weight: 200;
+    opacity: 0.7;
+}
